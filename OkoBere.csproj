@@ -1,0 +1,120 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="karty\2C.png" />
+    <None Remove="karty\2D.png" />
+    <None Remove="karty\2H.png" />
+    <None Remove="karty\2S.png" />
+    <None Remove="karty\3C.png" />
+    <None Remove="karty\3D.png" />
+    <None Remove="karty\3H.png" />
+    <None Remove="karty\3S.png" />
+    <None Remove="karty\4C.png" />
+    <None Remove="karty\4D.png" />
+    <None Remove="karty\4H.png" />
+    <None Remove="karty\4S.png" />
+    <None Remove="karty\5C.png" />
+    <None Remove="karty\5D.png" />
+    <None Remove="karty\5H.png" />
+    <None Remove="karty\5S.png" />
+    <None Remove="karty\6C.png" />
+    <None Remove="karty\6D.png" />
+    <None Remove="karty\6H.png" />
+    <None Remove="karty\6S.png" />
+    <None Remove="karty\7C.png" />
+    <None Remove="karty\7D.png" />
+    <None Remove="karty\7H.png" />
+    <None Remove="karty\7S.png" />
+    <None Remove="karty\8C.png" />
+    <None Remove="karty\8D.png" />
+    <None Remove="karty\8H.png" />
+    <None Remove="karty\8S.png" />
+    <None Remove="karty\9C.png" />
+    <None Remove="karty\9D.png" />
+    <None Remove="karty\9H.png" />
+    <None Remove="karty\9S.png" />
+    <None Remove="karty\AC.png" />
+    <None Remove="karty\AD.png" />
+    <None Remove="karty\AH.png" />
+    <None Remove="karty\AS.png" />
+    <None Remove="karty\BB.png" />
+    <None Remove="karty\BR.png" />
+    <None Remove="karty\JC.png" />
+    <None Remove="karty\JD.png" />
+    <None Remove="karty\JH.png" />
+    <None Remove="karty\JS.png" />
+    <None Remove="karty\KC.png" />
+    <None Remove="karty\KD.png" />
+    <None Remove="karty\KH.png" />
+    <None Remove="karty\KS.png" />
+    <None Remove="karty\QC.png" />
+    <None Remove="karty\QD.png" />
+    <None Remove="karty\QH.png" />
+    <None Remove="karty\QS.png" />
+    <None Remove="karty\TC.png" />
+    <None Remove="karty\TD.png" />
+    <None Remove="karty\TH.png" />
+    <None Remove="karty\TS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="karty\2C.png" />
+    <Resource Include="karty\2D.png" />
+    <Resource Include="karty\2H.png" />
+    <Resource Include="karty\2S.png" />
+    <Resource Include="karty\3C.png" />
+    <Resource Include="karty\3D.png" />
+    <Resource Include="karty\3H.png" />
+    <Resource Include="karty\3S.png" />
+    <Resource Include="karty\4C.png" />
+    <Resource Include="karty\4D.png" />
+    <Resource Include="karty\4H.png" />
+    <Resource Include="karty\4S.png" />
+    <Resource Include="karty\5C.png" />
+    <Resource Include="karty\5D.png" />
+    <Resource Include="karty\5H.png" />
+    <Resource Include="karty\5S.png" />
+    <Resource Include="karty\6C.png" />
+    <Resource Include="karty\6D.png" />
+    <Resource Include="karty\6H.png" />
+    <Resource Include="karty\6S.png" />
+    <Resource Include="karty\7C.png" />
+    <Resource Include="karty\7D.png" />
+    <Resource Include="karty\7H.png" />
+    <Resource Include="karty\7S.png" />
+    <Resource Include="karty\8C.png" />
+    <Resource Include="karty\8D.png" />
+    <Resource Include="karty\8H.png" />
+    <Resource Include="karty\8S.png" />
+    <Resource Include="karty\9C.png" />
+    <Resource Include="karty\9D.png" />
+    <Resource Include="karty\9H.png" />
+    <Resource Include="karty\9S.png" />
+    <Resource Include="karty\AC.png" />
+    <Resource Include="karty\AD.png" />
+    <Resource Include="karty\AH.png" />
+    <Resource Include="karty\AS.png" />
+    <Resource Include="karty\BB.png" />
+    <Resource Include="karty\BR.png" />
+    <Resource Include="karty\JC.png" />
+    <Resource Include="karty\JD.png" />
+    <Resource Include="karty\JH.png" />
+    <Resource Include="karty\JS.png" />
+    <Resource Include="karty\KC.png" />
+    <Resource Include="karty\KD.png" />
+    <Resource Include="karty\KH.png" />
+    <Resource Include="karty\KS.png" />
+    <Resource Include="karty\QC.png" />
+    <Resource Include="karty\QD.png" />
+    <Resource Include="karty\QH.png" />
+    <Resource Include="karty\QS.png" />
+    <Resource Include="karty\TC.png" />
+    <Resource Include="karty\TD.png" />
+    <Resource Include="karty\TH.png" />
+    <Resource Include="karty\TS.png" />
+  </ItemGroup>
+</Project>
