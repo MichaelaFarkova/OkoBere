@@ -6,7 +6,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:local="clr-namespace:OkoBere"
     mc:Ignorable="d"
-    Title="MainWindow"
+    Title="Oko Bere"
     Width="800" Height="450"
     Background="#FF009600"
     ResizeMode="NoResize"

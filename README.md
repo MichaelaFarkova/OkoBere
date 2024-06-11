@@ -8,8 +8,7 @@ Hra Oko Bere v C# s WPF.
 
 Definuje možné stavy hry:
 - `Nic`: Neutrální stav.
-- `Start`: Poèáteèní stav, pøipravuje nové kolo.
-- `Konec`: Konec hry, žádná další akce.
+- `Start`: Nové kolo.
 - `Hit`: Hráè žádá další kartu.
 - `Stand`: Hráè ukonèuje tah.
 

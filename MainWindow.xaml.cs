@@ -31,6 +31,12 @@ namespace OkoBere
         private int skore = 0;
         private int dealerovaKartaObrazekId, hracovaKartaObrazekId;
         Stav stav = Stav.Start;
+        public MainWindow()
+        {
+            InitializeComponent();
+            AktualizovatSkore(0);
+            CompositionTarget.Rendering += HerniSmycka;
+        }
         private string NahodneUriZadnihoObrazkuKarty()
         {
             string[] uriZadnichObrazkuKaret = { "karty/BB.png", "karty/BR.png" };
@@ -103,12 +109,6 @@ namespace OkoBere
         {
             Zprava.Text = $"Remíza! {hracovaRuka}/{dealerovaRuka}";
         }
-        public MainWindow()
-        {
-            InitializeComponent();
-            AktualizovatSkore(0);
-            CompositionTarget.Rendering += HerniSmycka;
-        }
         private void HerniSmycka(object sender, EventArgs e)
         {
             switch (stav)
@@ -147,7 +147,7 @@ namespace OkoBere
                     TlacitkoStand.Visibility = Visibility.Hidden;
                     TlacitkoDalsiKolo.Visibility = Visibility.Visible;
                     NastavitZdrojObrazku(BalicekKaret, NahodneUriZadnihoObrazkuKarty());
-                    NastavitZdrojObrazku(DealerovaKarta1, dealerovaSkrytaKartaUri);
+                    NastavitZdrojObrazku(DealerovaKarta2, dealerovaSkrytaKartaUri);
                     if (hracovaRuka > 21) Prohra();
                     else if (dealerovaRuka > hracovaRuka) Prohra();
                     else
